@@ -1,7 +1,11 @@
 # HealtyEats
 Python Web Application that helps you eat healthier
 
+# UI
 
+![img]( https://github.com/follen99/HealtyEats/blob/main/Media/Screenshots/FirstUI.png?raw=true )
+
+This is the firs User Interface of the web app.
 
 # How to run
 
