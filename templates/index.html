@@ -11,11 +11,128 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">HealtEats</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Il mio Frigo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ricette</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Lista della spesa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Today</h1>
+                <div class="card border-dark" style="margin-bottom: 20px;">
+                    <div class="card-body" style="text-align: left;">
+                        <h4 class="card-title">Colazione</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item"><span>The nero</span></li>
+                            <li class="list-group-item"><span>Ciambella</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card border-dark" style="margin-bottom: 20px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Pranzo</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item"><span>Pollo</span></li>
+                            <li class="list-group-item"><span>Fagioli</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card border-dark">
+                    <div class="card-body" style="margin-bottom: 20px;">
+                        <h4 class="card-title">Cena</h4>
+                        <ul class="list-group">
+                            <li class="list-group-item"><span>Bistecca</span></li>
+                            <li class="list-group-item"><span>Verdure miste</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-success" style="margin-bottom: 20px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Aggiungi</h4>
+                        <div class="row">
+                            <div class="col-lg-12"><select class="form-select mb-3">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                </select></div>
+                        </div>
+                        <div class="row">
+                            <div class="col"><select class="form-select mb-3">
+                                    <optgroup label="This is a group">
+                                        <option value="12" selected="">This is item 1</option>
+                                        <option value="13">This is item 2</option>
+                                        <option value="14">This is item 3</option>
+                                    </optgroup>
+                                </select></div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="col text-center"><button class="btn btn-primary bg-success bg-gradient border rounded-pill shadow" type="button" style="width: 149.2812px;height: 61px;font-size: 25px;">Salva</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card border-success">
+                            <div class="card-body">
+                                <h4 class="card-title">Questa Settimana</h4>
+                                <div class="row">
+                                    <div class="col" style="margin-bottom: 20px;">
+                                        <div class="card border-dark">
+                                            <div class="card-body text-center">
+                                                <h1>6 Pasti su 21</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card border-dark">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Hai Mangiato</h4>
+                                                <div class="table-responsive table table-striped">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Cibo</th>
+                                                                <th>Quantità</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Pasta</td>
+                                                                <td>3 Volte</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pesce</td>
+                                                                <td>2 Volte</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
