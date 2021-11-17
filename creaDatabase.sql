@@ -17,7 +17,7 @@ CREATE TABLE ricette (
     istruzioni TEXT NOT NULL);
 
 CREATE TABLE ingredienti_ricette (
-    id_ricetta INTEGER PRIMARY KEY AUTOINCREMENT,
+    id_ricetta INTEGER NOT NULL,
     id_ingrediente INTEGER NOT NULL,
     FOREIGN KEY (id_ricetta) REFERENCES ricette(id),
     FOREIGN KEY (id_ingrediente) REFERENCES ingredienti(id));
@@ -34,4 +34,15 @@ INSERT INTO ingredienti (nome) VALUES ('egg'), ('salt'), ('sugar'), ('chocolate'
 INSERT INTO ricette (nome, descrizione, istruzioni) VALUES 
     ('Boiled Egg', 'A single boiled egg', 'Add egg to cold water. Bring water to boil. Cook.'),
     ('Chocolate cake', 'A delicious chocolate cake', 'Mix all ingredients together, put in the oven and bake for 30 minutes');
+
+
+INSERT INTO ingredienti_ricette (id_ricetta, id_ingrediente  ) VALUES (1, 1);
+
+INSERT INTO ingredienti_ricette (id_ricetta, id_ingrediente  )  VALUES (2, 1);
+
+INSERT INTO ingredienti_ricette (id_ricetta, id_ingrediente  )  VALUES (2, 2);
+
+INSERT INTO ingredienti_ricette (id_ricetta, id_ingrediente  )  VALUES (2, 3);
+
+INSERT INTO ingredienti_ricette (id_ricetta, id_ingrediente  )  VALUES (2, 4);
 
