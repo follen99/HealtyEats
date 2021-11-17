@@ -9,7 +9,7 @@ Python Web Application that helps you eat healthier
 
 ## Some design upgrade and animations
 
-![video](https://github.com/follen99/HealtyEats/blob/main/Media/Screenshots/demo_animazioni.mov?raw=true)
+
 
 # How to run
 
