@@ -10,6 +10,10 @@ Python Web Application that helps you eat healthier
 ## Some design upgrade and animations
 
 
+https://user-images.githubusercontent.com/74026278/142220119-9a3472a5-23b9-42e2-98e9-83810bd11193.mov
+
+
+
 
 # How to run
 
